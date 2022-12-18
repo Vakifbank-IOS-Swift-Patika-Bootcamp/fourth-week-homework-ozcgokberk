@@ -32,7 +32,7 @@ class EpisodeView: UIView, UITableViewDelegate, UITableViewDataSource {
     }
     private func setup() {
         
-        myTableView.delegate = self
+//        myTableView.delegate = self
         myTableView.dataSource = self
         myTableView.register(EpisodeCastTableViewCell.cellNib, forCellReuseIdentifier:EpisodeCastTableViewCell.id )
         
